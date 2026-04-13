@@ -7,8 +7,8 @@
 </head>
 <body>
     <header>
-        <h1>El confesionario de chismes</h1>
-        <p>Bienvenidos al confesionario de chismes, el lugar donde puedes compartir tus secretos más intimos sin miedo a ser juzgado. Aquí, cada historia es bienvenida, desde el chisme más pequeño hasta el más grande. ¡No te preocupes por las consecuencias, este es un espacio seguro para desahogarte y divertirte!
+        <h1>El confesionario de ESCOM</h1>
+        <p>Bienvenidos al confesionario de ESCOM, el lugar donde puedes compartir tus secretos más intimos sin miedo a ser juzgado. Aquí, cada historia es bienvenida, desde el chisme más pequeño hasta el más grande. ¡No te preocupes por las consecuencias, este es un espacio seguro para desahogarte y divertirte!
         </p>
     </header>
     <main>
@@ -27,7 +27,26 @@
                 <legend>Preguntas pillas</legend>
                 <p>¿Cual es tu mayor secreto?</p>
                 <textarea name="secreto" id="secreto" rows="4" cols="40" placeholder="Te juro que queda entre nosotros..."></textarea>
-
+                <p>¿Quien te gusta?</p>
+                <textarea name="gusta" id="gusta" rows="4" cols="40" placeholder="Quien sabe, igual tu también le gustas..."></textarea>
+                <p>¿Quien te cae mal?</p>
+                <textarea name="caemal" id="caemal" rows="4" cols="40" placeholder="Ahorita lo damos de baja, pero dinos quien..."></textarea>
+                <p>¿Cual es tu promedio?</p>
+                <textarea name="promedio" id="promedio" rows="4" cols="40" placeholder="Seguro que tienes mas que el que te cae mal..."></textarea>
+                <p>¿Quien es tu mejor amig@?</p>
+                <textarea name="bestie" id="bestie" rows="4" cols="40" placeholder="Esa persona es la uña y tu la mugre..."></textarea>
+                <p>¿Con quien nunca harías equipo?</p>
+                <textarea name="noequipo" id="noequipo" rows="4" cols="40" placeholder="Tendrás tus razones..."></textarea>
+                <p>¿Quien es el mas guapo del salón?</p>
+                <textarea name="guapo" id="guapo" rows="4" cols="40" placeholder="Ese que siempre está en el centro de atención..."></textarea>
+                <p>¿Quien es la mas guapa del salón?</p>
+                <textarea name="guapa" id="guapa" rows="4" cols="40" placeholder="Esa que siempre está en el centro de atención..."></textarea>
+                <p>Si tienes alguna evidencia sobre alguna chisme adjuntala aquí, nos gusta lo que podemos ver</p>
+                <input type="file" id="evidencia" name="evidencia" accept="image/*,video/*">
+            </fieldset>
+            <p>Nos gustó ese chisme picante, pero vamos con un poco de la carrera</p>
+            <fieldset>
+                <legend>Preguntas de la carrera</legend>
                 <p>¿Que prefieres?</p>
                 <input type="radio" id="p1" name="preferencia" value="backend">
                 <label for="p1">Backend (el cerebro)</label><br>
@@ -35,12 +54,25 @@
                 <label for="p2">Frontend (la cara bonita)</label><br>
                 <input type="radio" id="p3" name="preferencia" value="fullstack">
                 <label for="p3">Fullstack (puedo con todo)</label>
-            </fieldset>
 
+                <p>¿Por qué estudias en escom?</p>
+                <textarea name="escom" id="escom" rows="4" cols="40" placeholder="Dinos tu razón..."></textarea>
+
+                <p>¿Que cosa odias de la carrera?</p>
+                <textarea name="odia" id="odia" rows="4" cols="40" placeholder="Eso que tanto te molesta..."></textarea>
+
+                <p>¿Quien es tu profesor/a favorito/a?</p>
+                <textarea name="profesor" id="profesor" rows="4" cols="40" placeholder="Ya dilo, sabemos que es la de Web..."></textarea>
+
+                <p>Materia que menos te gusta</p>
+                <textarea name="materia" id="materia" rows="4" cols="40" placeholder="Dinos tu razón..."></textarea>
+
+            </fieldset>
             <fieldset>
                 <legend>Nivel de "Chismoso"</legend>
                 <label for="nivel">¿Qué tan chismoso eres?</label>
                 <input type="range" id="nivel" name="nivel" min="0" max="100">
+                <p>La verdad que fue un gusto chismear contigo, ahora difundiremos tu chisme por todos lados JEJE</p>
             </fieldset>
 
             <br>
