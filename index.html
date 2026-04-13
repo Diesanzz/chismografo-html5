@@ -8,8 +8,7 @@
 <body>
     <header>
         <h1>El confesionario de chismes</h1>
-        <p>Bienvenidos al confesionario de chismes, el lugar donde puedes compartir tus secretos más intimos sin miedo a ser juzgado. 
-            Aquí, cada historia es bienvenida, desde el chisme más pequeño hasta el más grande. ¡No te preocupes por las consecuencias, este es un espacio seguro para desahogarte y divertirte!
+        <p>Bienvenidos al confesionario de chismes, el lugar donde puedes compartir tus secretos más intimos sin miedo a ser juzgado. Aquí, cada historia es bienvenida, desde el chisme más pequeño hasta el más grande. ¡No te preocupes por las consecuencias, este es un espacio seguro para desahogarte y divertirte!
         </p>
     </header>
     <main>
@@ -21,7 +20,7 @@
                 <br><br>
 
                 <label for="color">Tu color favorito (pa conocerte mejor)</label>
-                <input type="color" id="color" name="color" placeholder="Ej. Rojo">
+                <input type="color" id="color" name="color">
             </fieldset>
 
             <fieldset>
@@ -32,8 +31,21 @@
                 <p>¿Que prefieres?</p>
                 <input type="radio" id="p1" name="preferencia" value="backend">
                 <label for="p1">Backend (el cerebro)</label><br>
-                </label>
+                <input type="radio" id="p2" name="preferencia" value="frontend">
+                <label for="p2">Frontend (la cara bonita)</label><br>
+                <input type="radio" id="p3" name="preferencia" value="fullstack">
+                <label for="p3">Fullstack (puedo con todo)</label>
             </fieldset>
+
+            <fieldset>
+                <legend>Nivel de "Chismoso"</legend>
+                <label for="nivel">¿Qué tan chismoso eres?</label>
+                <input type="range" id="nivel" name="nivel" min="0" max="100">
+            </fieldset>
+
+            <br>
+            <button type="submit">Enviar chisme</button>
+            <button type="reset">Borrar evidencia</button>
         </form>
     </main>
     <footer>
@@ -41,5 +53,5 @@
         </p>
     </footer>
 </body>
-</html>l
+</html>
 
